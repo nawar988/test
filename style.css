@@ -1,0 +1,60 @@
+header {
+	color: gold;
+	float: right;
+	margin-right: 10px;
+}
+body {
+	box-sizing: border-box;
+	background-color: gray;
+	font-family: cursive,monospace,serif;
+	border: 1px solid gold;
+	padding: 10px;
+	margin: 10px;
+}
+h1 {
+	color: gold;
+	text-align: center;
+	font-size: 175%;
+	float: center;
+}
+aside {
+	color: gold;
+	float: right;
+	margin-right: 10px;
+}
+h2 {
+	color: #A93226 ;
+}
+}
+}
+div div {
+	color: white;
+	float: left;
+	position: relative;
+	border: 5px double orange;
+	padding: 5px;
+	margin: 5px;
+	max-width: 100%;
+}
+footer {
+	clear: both;
+	color: gold;
+	text-align: center;
+	margin: 30px;	
+}
+@media (min-width: 992px){
+	div {
+		float: left;
+		width: 30%;
+	}
+}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#first #second {
+		width: 50%
+	}
+	#third {
+		width: 100%;
+	
+	}
+}
